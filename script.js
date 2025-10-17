@@ -1,5 +1,5 @@
 
-const api = "http://localhost:5000/product";
+const api = "https://cs10x11-backend.onrender.com/product";
 
 // CREATE PRODUCT
 async function addproduct() {
