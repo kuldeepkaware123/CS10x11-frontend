@@ -1,0 +1,57 @@
+.dashboard{
+ background-color: aquamarine;
+ padding: 20px;
+ width: fit-content;
+ margin: auto;
+ text-align: center;
+ display: flex;
+ flex-direction: column;
+ gap: 10px;
+}
+
+#add_btn{
+    background:red;
+    color:white;
+}
+.dashboard input{
+ display: block;
+}
+
+.product_card{
+    border: 2px solid black;
+    width: 200px;
+    padding: 20px;
+    background-color: beige;
+    border-radius: 20px;
+
+    img{
+        object-fit: fill;
+    }
+
+    h4{
+        text-transform: uppercase;
+    }
+}
+
+#output{
+display: flex;
+gap: 10px;
+}
+
+body{
+    text-align: center;
+}
+
+table,th,td{
+    border: 2px solid black;
+
+}
+
+table{
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th,td{
+    padding: 20px;
+}
